@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBS Customs | Sauna & Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f8f8;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #222;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .section {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1618221794788-e21fd4c94b44') center/cover no-repeat;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #e87b27;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SBS Customs</h1>
+    <p>Saunas • Benches • Surfaces</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#survey">Sauna Survey</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Custom Saunas & Interiors</h2>
+    <p>Designed for heat. Built for life.</p>
+    <a href="#survey" class="btn">Start Your Dream Sauna</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About SBS Customs</h2>
+    <p>We specialize in handcrafted sauna experiences using high-grade materials like Western Red Cedar, custom LED lighting, floating benches, and thermal sealing. Every project is built with craftsmanship, design expertise, and high-performance function.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Project Gallery</h2>
+    <p>Coming soon — check out our builds on Instagram @sbscustoms</p>
+  </section>
+
+  <section id="survey" class="section">
+    <h2>Dream Sauna Survey</h2>
+    <p>Tell us exactly what you're dreaming of. We'll use your answers to build a design and quote tailored to you.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdExampleFormID123456789/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:sbscustoms@gmail.com">sbscustoms@gmail.com</a></p>
+    <p>Serving Utah County and surrounding areas.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SBS Customs. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
